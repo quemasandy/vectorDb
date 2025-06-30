@@ -55,6 +55,31 @@ Learn vector databases from zero to hero through hands-on exercises and real-wor
 - **Redis** - Caching and session storage
 - **SQLAlchemy** - Python SQL toolkit and ORM
 
+## 🚀 Quick Start
+
+### **Environment Setup**
+```bash
+# 1. Create and activate virtual environment
+python3 -m venv venv
+source venv/bin/activate
+
+# 2. Install core dependencies
+pip install numpy pandas matplotlib
+
+# 3. Test your setup
+python quick_start.py
+
+# 4. For advanced quests, install additional packages
+pip install chromadb sentence-transformers faiss-cpu
+```
+
+### **Alternative: One-Click Setup**
+```bash
+# Run the automated setup script
+chmod +x setup_env.sh
+./setup_env.sh
+```
+
 ## 📚 Learning Path
 
 This repository contains progressive exercises designed to take you from basic vector concepts to production-ready systems:

@@ -23,6 +23,12 @@ This is primarily a **documentation and learning materials repository** rather t
 
 ## Working with This Repository
 
+### Environment Setup
+- **Virtual Environment**: `venv/` directory contains isolated Python environment
+- **Quick Start**: Run `python quick_start.py` to test basic setup
+- **Status Check**: Run `python check_env.py` to see package installation status
+- **Installation**: See `INSTALL.md` for detailed setup instructions
+
 ### Content Development
 - **Exercise Creation**: Each exercise should build incrementally on previous knowledge
 - **Code Examples**: All code snippets should be runnable and educational

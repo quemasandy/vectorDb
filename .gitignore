@@ -1,0 +1,51 @@
+# Python Virtual Environment
+venv/
+env/
+.env
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb
+
+# Vector Database Storage
+*.db
+*.sqlite3
+my_db_vectorial/
+oracle_db/
+omni_search_db/
+
+# Model Downloads & Cache
+.cache/
+models/
+*.bin
+*.safetensors
+
+# Environment Variables
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+tmp/
+temp/
+.tmp/
